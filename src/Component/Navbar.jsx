@@ -524,4 +524,171 @@ export default function PersistentDrawerLeft() {
       </Box>
     );
   }
+  else if(screenWidth>1024){
+    return (
+      <Box sx={{ display: 'flex' }}>
+        <CssBaseline />
+        <AppBar
+          position="fixed"
+          sx={{ width: `calc(100% - ${drawerWidth}px)`, ml: `${drawerWidth}px` }}
+        >
+          <Toolbar style={{ backgroundColor: "#fff" }}>
+          <div
+              style={{
+                display: "flex",
+                flexGrow: "1",
+                justifyContent: "space-between",
+                alignItems: "center",
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <div>
+                  <Input
+                    type="text"
+                    placeholder="Search"
+                    style={{
+                      border: "none",
+                      outline: "none",
+                      padding: "0.5rem",
+                      borderRadius: "5px",
+                    }}
+                    startAdornment={
+                      <InputAdornment position="start">
+                        <SearchIcon style={{ color: "#B2B2B2" }} />
+                      </InputAdornment>
+                    }
+                  />
+                </div>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <div style={{ padding: "0rem 0.5rem" }}>
+                  <NotificationsIcon style={{ color: "#B2B2B2" }} />
+                </div>
+                <div style={{ padding: "0rem 0.5rem" }}>
+                  <TextsmsIcon style={{ color: "#B2B2B2" }} />
+                </div>
+                <div style={{ padding: "0rem 0rem", paddingLeft: "0.25rem" }}>
+                  <Stack direction="row" spacing={2}>
+                    <Avatar
+                      alt="Remy Sharp"
+                      src={AVimage}
+                      sx={{ width: 24, height: 24 }}
+                    />
+                  </Stack>
+                </div>
+                <div style={{ padding: "0rem 0.12rem" ,
+              fontFamily: "Poppins",
+              fontSize: "16px",
+              fontWeight: "500",
+              lineHeight: "24px",
+              letterSpacing: "0em",
+              textAlign: "left",
+              color: "#686868",
+              
+              }}>
+                  Amira Singh
+                </div>
+                <div style={{ padding: "0rem 0.12rem" }}>
+                  <ArrowDropDownIcon style={{ color: "#B2B2B2" }} />
+                </div>
+              </div>
+            </div>
+          </Toolbar>
+        </AppBar>
+        <Drawer
+          sx={{
+            width: drawerWidth,
+            flexShrink: 0,
+            '& .MuiDrawer-paper': {
+              width: drawerWidth,
+              boxSizing: 'border-box',
+            },
+          }}
+          variant="permanent"
+          anchor="left"
+        >
+          <Toolbar />
+          <img src={Logo} alt="logo" style={{ width: "8rem",marginLeft:"2.5rem" }} />
+          <List>
+          <div
+              style={{
+                fontFamily: "Roboto",
+                fontSize: "12px",
+                fontWeight: "500",
+                lineHeight: "18px",
+                letterSpacing: "0em",
+                textAlign: "left",
+                color: "#686868",
+                opacity: "50%",
+                padding: "10px 0 10px 30px",
+              }}
+            >
+              Main Menu
+            </div>
+            {[
+              "Dashboard",
+              "Recruitment",
+              "Schedule",
+              "Employee",
+              "Department",
+            ].map((text, index) => (
+              <ListItem key={text} disablePadding>
+                <ListItemButton>
+                  <ListItemIcon>
+                  {iconArray[index]}
+                  </ListItemIcon>
+                  <ListItemText primary={text} />
+                </ListItemButton>
+              </ListItem>
+            ))}
+          </List>
+          <List>
+          <div
+              style={{
+                fontFamily: "Roboto",
+                fontSize: "12px",
+                fontWeight: "500",
+                lineHeight: "18px",
+                letterSpacing: "0em",
+                textAlign: "left",
+                color: "#686868",
+                opacity: "50%",
+                padding: "10px 0 10px 30px",
+              }}
+            >
+              OTHER
+            </div>
+            {["Support", "Setting"].map((text, index) => (
+              <ListItem key={text} disablePadding>
+                <ListItemButton>
+                  <ListItemIcon>
+                  {index % 2 === 0 ? <SupportAgentIcon /> : <SettingsIcon />}
+                  </ListItemIcon>
+                  <ListItemText primary={text} />
+                </ListItemButton>
+              </ListItem>
+            ))}
+          </List>
+        </Drawer>
+        <Box
+          component="main"
+          sx={{ flexGrow: 1, bgcolor: 'background.default', p: 3 }}
+        >
+          <Toolbar />
+        </Box>
+      </Box>
+    );
+  }
 }

@@ -3,34 +3,74 @@
     flex-direction: row;
     justify-content: space-between;
     /* padding: ; */
-@media  (max-width: 1024px) and (min-width: 600px) {
-    .colorcard{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: 6rem;
-        margin-right: 6rem;
-        /* padding: ; */
-    }
-    .colorcard1{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: 6rem;
-        margin-right: 6rem;
-    }
-    .colorcard2{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: 6rem;
-        margin-right: 6rem;
-    }
-    .colorcard3{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: 6rem;
-        margin-right: 6rem;
-    }
+.desktop{
+    width: 60%;
+}
+.desk{
+    width: 40%;
+}
+.colorcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 18rem;
+  /* margin-right: 18rem; */
+  /* padding: ; */
+}
+.Mains {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.colorcard1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 18rem;
+  /* margin-right: 18rem; */
+}
+.colorcard2 {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+  margin-left: 18rem;
+  /* margin-right: 18rem; */
+}
+.colorcard3 {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  margin-left: 10rem;
+  /* margin-right: 18rem; */
+}
+@media (max-width: 1024px) and (min-width: 600px) {
+  .colorcard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    /* padding: ; */
+  }
+  .colorcard1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  .colorcard2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  .colorcard3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
 }

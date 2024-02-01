@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 1rem;
     border-radius: 3%;
-
+    width: 20vw;
 }
 .cardheading3{
     border-radius: 10px 10px 0px 0px;
@@ -79,6 +79,7 @@ color: #ffffff;
 .hea3{
     padding-top: 20px;
 }
+
 @media (min-width: 600px) and (max-width: 1024px) {
     .card3x{
         width: 30vw;
