@@ -1,0 +1,117 @@
+.card3x{
+    background-color: #161E54;
+    border: 1px solid #161E54;
+    box-sizing: border-box;
+    margin: 1rem;
+    border-radius: 3%;
+
+}
+.cardheading3{
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 10px 10px 20px;
+    background-color: #1B204A;
+    border: 1px solid #1B204A;
+}
+.head{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #fff;
+}
+.time{
+    font-family: Roboto;
+font-size: 10px;
+font-weight: 500;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+color: #fff;
+opacity: 60%;
+}
+.job{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #ffffff;
+}
+.jobdetail{
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #ffffff;
+}
+.cardbody3{
+    padding: 15px 60px 15px 25px;
+}
+.hea{
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #ffffff;
+}
+.btn{
+    border: 1px solid  #FF5151;
+    border-radius: 4px;
+    padding: 10px 16px 10px 16px;
+    background-color: #FF5151;
+}
+.btnco{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+color: #ffffff;
+}
+.hea3{
+    padding-top: 20px;
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+    .card3x{
+        width: 30vw;
+        height: 37vh;
+        margin: 1rem 0;
+    }
+    .cardbody3{
+        margin-top:30px ;
+        padding: 15px 60px 15px 25px;
+    }
+    .cardheading3{
+        height: 15%;
+        padding: 20px 10px 10px 20px;
+    }
+    .head{
+        font-size: 14px;
+    }
+    .time{
+        font-size: 10px;
+    }
+    .job{
+        font-size: 14px;
+    }
+    .jobdetail{
+        font-size: 12px;
+    }
+    .hea{
+        font-size: 12px;
+    }
+    .btnco{
+        font-size: 12px;
+    }
+    .hea3{
+        padding-top: 20px;
+    }
+}

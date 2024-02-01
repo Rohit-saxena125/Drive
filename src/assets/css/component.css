@@ -1,0 +1,36 @@
+/* .colorcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: ; */
+@media  (max-width: 1024px) and (min-width: 600px) {
+    .colorcard{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 6rem;
+        margin-right: 6rem;
+        /* padding: ; */
+    }
+    .colorcard1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+    .colorcard2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+    .colorcard3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+}
