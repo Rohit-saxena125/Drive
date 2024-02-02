@@ -40,7 +40,7 @@ const Component1 = () => {
           </div>
         </div>
         <div className="colorcard1">
-          <div style={{paddingRight:"0.001rem"}}>
+          <div className="car">
             <Card1
               card1="Total Employees"
               card2="216"
@@ -68,7 +68,7 @@ const Component1 = () => {
           <div>
             <Card3 />
           </div>
-          <div style={{marginTop:"4.5rem"}}>
+          <div className="desk1">
             <Card4 />
           </div>
         </div>

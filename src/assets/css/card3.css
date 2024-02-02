@@ -79,12 +79,47 @@ color: #ffffff;
 .hea3{
     padding-top: 20px;
 }
-
+@media (min-width: 320px) and (max-width: 600px) {
+    .card3x{
+        width: 100vw;
+        height: 37vh;
+        margin: 1rem ;
+    }
+    .cardbody3{
+        margin-top:30px ;
+        padding: 15px 60px 15px 25px;
+    }
+    .cardheading3{
+        height: 15%;
+        padding: 20px 10px 10px 20px;
+    }
+    .head{
+        font-size: 14px;
+    }
+    .time{
+        font-size: 10px;
+    }
+    .job{
+        font-size: 14px;
+    }
+    .jobdetail{
+        font-size: 12px;
+    }
+    .hea{
+        font-size: 12px;
+    }
+    .btnco{
+        font-size: 12px;
+    }
+    .hea3{
+        padding-top: 20px;
+    }
+}
 @media (min-width: 600px) and (max-width: 1024px) {
     .card3x{
-        width: 30vw;
-        height: 37vh;
-        margin: 1rem 0;
+        width: 35vw;
+        height: 36vh;
+        margin: 1rem ;
     }
     .cardbody3{
         margin-top:30px ;

@@ -81,6 +81,10 @@
     box-sizing: border-box;
     margin: 1rem;
     border-radius: 3%;
+    width: 100vw;
+  }
+  .cardxxx {
+    width: 100vw;
   }
   .card-date {
     display: flex;
@@ -121,7 +125,7 @@
         background-color: #ffffff;
         border: 1px solid #e0e0e0;
         box-sizing: border-box;
-        margin: 1rem 0;
+        margin: 1rem ;
         border-radius: 3%;
         width: 100vw;
     }
